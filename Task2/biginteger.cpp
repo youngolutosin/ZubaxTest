@@ -1,4 +1,4 @@
-// C++ program to find difference of two large numbers. 
+ 
 #include<bits/stdc++.h> 
 using namespace std; 
 
@@ -26,11 +26,8 @@ bool isSmaller(string str1, string str2)
 	return false; 
 } 
 
-// Function for find difference of larger numbers 
 string findDiff(string str1, string str2) 
 { 
-	// Before proceeding further, make sure str1 
-	// is not smaller 
 	if (isSmaller(str1, str2)) 
 		swap(str1, str2); 
 
@@ -50,8 +47,7 @@ string findDiff(string str1, string str2)
 	// and subtract digit of str1 to str2 
 	for (int i=0; i<n2; i++) 
 	{ 
-		// Do school mathematics, compute difference of 
-		// current digits 
+	
 		
 		int sub = ((str1[i]-'0')-(str2[i]-'0')-carry); 
 		
@@ -113,8 +109,7 @@ string findSum(string str1, string str2)
 	int carry = 0; 
 	for (int i=0; i<n1; i++) 
 	{ 
-		// Do school mathematics, compute sum of 
-		// current digits and carry 
+	
 		int sum = ((str1[i]-'0')+(str2[i]-'0')+carry); 
 		str.push_back(sum%10 + '0'); 
 
