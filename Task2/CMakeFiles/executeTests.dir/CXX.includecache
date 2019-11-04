@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/suse/Zubax/ZubaxTest/Task2/biginteger.cpp
+bits/stdc++.h
+-
+
+/home/suse/Zubax/ZubaxTest/Task2/biginteger_test.cpp
+biginteger.cpp
+/home/suse/Zubax/ZubaxTest/Task2/biginteger.cpp
+gtest/gtest.h
+-
+

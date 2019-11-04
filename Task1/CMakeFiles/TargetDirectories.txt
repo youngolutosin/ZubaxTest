@@ -1,0 +1,3 @@
+/home/suse/Zubax/ZubaxTest/Task1/CMakeFiles/edit_cache.dir
+/home/suse/Zubax/ZubaxTest/Task1/CMakeFiles/rebuild_cache.dir
+/home/suse/Zubax/ZubaxTest/Task1/CMakeFiles/executeTests.dir

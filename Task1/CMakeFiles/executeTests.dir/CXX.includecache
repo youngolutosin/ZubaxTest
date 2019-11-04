@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/suse/Zubax/ZubaxTest/Task1/modular.cpp
+iostream
+-
+
+/home/suse/Zubax/ZubaxTest/Task1/modular_test.cpp
+modular.cpp
+/home/suse/Zubax/ZubaxTest/Task1/modular.cpp
+gtest/gtest.h
+-
+
